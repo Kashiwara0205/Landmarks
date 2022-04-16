@@ -13,11 +13,11 @@ struct ContentView: View {
         VStack {
             MapView()
                 .ignoresSafeArea(edges: .top)
-                  .frame(height: 230)
+                  .frame(height: 300)
             
             
             CircleImag()
-                .offset(y: -90)
+                .offset(y: -130)
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
@@ -35,7 +35,6 @@ struct ContentView: View {
                 .foregroundColor(.secondary)
                 
                 Divider()
-
                 
                 Text("About Turtle Rock")
                     .font(.title2)
